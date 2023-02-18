@@ -19,8 +19,13 @@ The comment in the code, // now b is sum of both the numbers, is not strictly ac
 The comments in the code are helpful for understanding what each line of code does, and they provide some insight into the programmer's thought process. In a README.md file, comments like these can be used to explain how the code works and to provide context for readers who may be unfamiliar with the codebase.
 
 
+## 02 Write a Java program to check if a vowel is present in a string
+##  String Contains Vowels
 
-Regenerate response
+This Java program determines if a given input string contains vowels. It uses a regular expression to match the string against the set of vowels 
+`(a, e, i, o, u)`.
+
+
 
 
 
