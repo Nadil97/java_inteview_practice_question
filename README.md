@@ -33,7 +33,7 @@ The main method creates a list of integers and calls the containsOnlyOddNumbers 
 
 You can add more test cases to the `main` method to check the program's behavior for different input lists.
 
-##  How do you check whether a string is a palindrome in Java?
+## 04 How do you check whether a string is a palindrome in Java?
 
 This Java program checks whether a given string is a palindrome. A string is considered a palindrome if it reads the same backward as forward.
 
@@ -44,6 +44,22 @@ To use this program, run the `palindrome` class. The program prompts the user to
 The program then checks whether the input string is a palindrome or not and prints a message indicating the result. For example:
 
 `racecar is a palindrome string`
+
+## 05 How do you sort an array in Java?
+
+### Sorting Arrays with the Arrays Utility Class
+ 
+The java.util.Arrays class provides many overloaded sort() methods to sort both primitive and object arrays in Java.
+
+### Sorting a Primitive Array
+
+If you want to sort a primitive array in the natural order, you can use the Arrays.sort() method. For example:
+
+`int[] numbers = {1,2,7,3,4}};`
+`Arrays.sort(numbers);`
+
+In this example, only the subarray from index 1 (inclusive) to index 4 (exclusive) will be sorted.
+
 
 
 
