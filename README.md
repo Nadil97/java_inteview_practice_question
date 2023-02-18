@@ -24,14 +24,26 @@ The comments in the code are helpful for understanding what each line of code do
 
 This Java program determines if a given input string contains vowels. It uses a regular expression to match the string against the set of vowels 
 `(a, e, i, o, u)`.
-
-## How do you check if a list of integers contains only odd numbers in Java?
+at is dm
+## 03 How do you check if a list of integers contains only odd numbers in Java?
 
 The `containsOnlyOddNumbers` method takes a list of integers as input and checks whether each number in the list is odd. If it finds any even number in the list, it returns `false`. If it completes the loop without finding any even numbers, it returns `true`.
 
 The main method creates a list of integers and calls the containsOnlyOddNumbers method to check whether the list contains only odd numbers. The program then prints a message indicating whether the list contains only `odd` numbers or not.
 
 You can add more test cases to the `main` method to check the program's behavior for different input lists.
+
+##  How do you check whether a string is a palindrome in Java?
+
+This Java program checks whether a given string is a palindrome. A string is considered a palindrome if it reads the same backward as forward.
+
+To use this program, run the `palindrome` class. The program prompts the user to enter a string as an input to check whether it is a palindrome or not. For example:
+
+`Enter a string as an input to check whether it is palindrome or not`
+
+The program then checks whether the input string is a palindrome or not and prints a message indicating the result. For example:
+
+`racecar is a palindrome string`
 
 
 
