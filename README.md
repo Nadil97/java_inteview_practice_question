@@ -1,16 +1,16 @@
 # java_inteview_practice_question
 ## 01. How do you swap two numbers without using a third variable in Java?
 
-`#0969DA` a = 5
-`#0969DA` b = 10
+`a= 5` 
+`b = 10` 
 
 We want to swap the values of a and b so that a becomes 10 and b becomes 5.
 
-The first line, ** b = b + a **, adds the values of a and b together and assigns the result to b. In our example, this would make b equal to 15 (10 + 5).
+The first line, **b = b + a** adds the values of a and b together and assigns the result to b. In our example, this would make b equal to 15 (10 + 5).
 
-The second line, ** a = b - a **, subtracts the original value of a from the new value of b, effectively swapping a and b. In our example, this would make a equal to ** 5 (15 - 10) **.
+The second line,  **a = b - a** subtracts the original value of a from the new value of b, effectively swapping a and b. In our example, this would make a equal to **5 (15 - 10)**.
 
-The third line,** b = b - a **, subtracts the new value of a (which was originally b) from the new value of b, effectively swapping a and b again. In our example, this would make b equal to ** 10 (15 - 5) **.
+The third line, **b = b - a** , subtracts the new value of a (which was originally b) from the new value of b, effectively swapping a and b again. In our example, this would make b equal to **10 (15 - 5)** 
 
 After these three lines of code have executed, a will be equal to 10 and b will be equal to 5, which is the desired result.
 
