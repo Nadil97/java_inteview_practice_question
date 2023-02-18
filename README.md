@@ -60,6 +60,11 @@ If you want to sort a primitive array in the natural order, you can use the Arra
 
 In this example, only the subarray from index 1 (inclusive) to index 4 (exclusive) will be sorted.
 
+## 06. How can you find the factorial of an integer in Java?
+
+The factorial of an integer is calculated by multiplying all the numbers from 1 to the given number
+`F(n) = F(1)*F(2)...F(n-1)*F(n)`
+
 
 
 
