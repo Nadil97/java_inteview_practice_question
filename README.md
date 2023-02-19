@@ -20,7 +20,7 @@ The comments in the code are helpful for understanding what each line of code do
 
 
 ## 02 Write a Java program to check if a vowel is present in a string
-##  String Contains Vowels
+### String Contains Vowels
 
 This Java program determines if a given input string contains vowels. It uses a regular expression to match the string against the set of vowels 
 `(a, e, i, o, u)`.
@@ -64,6 +64,14 @@ In this example, only the subarray from index 1 (inclusive) to index 4 (exclusiv
 
 The factorial of an integer is calculated by multiplying all the numbers from 1 to the given number
 `F(n) = F(1)*F(2)...F(n-1)*F(n)`
+
+## 07. How do you reverse a string in Java?
+
+There is no `reverse()` utility method in the `String` class. However, you can create a character array from the string and then iterate it from the end to the start. You can append the characters to a string builder and finally return the reversed string.
+
+Bonus points for adding `null` check in the method and using `StringBuilder` for appending the characters. Note that the indexing in Java starts from 0, so you need to start at `chars.length - 1` in the `for ` loop.
+
+
 
 
 
