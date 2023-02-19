@@ -71,6 +71,15 @@ There is no `reverse()` utility method in the `String` class. However, you can c
 
 Bonus points for adding `null` check in the method and using `StringBuilder` for appending the characters. Note that the indexing in Java starts from 0, so you need to start at `chars.length - 1` in the `for ` loop.
 
+## 08. Write a Java program to check if the given number is a prime number
+
+The `PrimeNumberCheck` class contains a `main` method that invokes the `isPrime` method, passing in two integers, `19` and `49`. The `isPrime` method takes an integer as its argument and returns a boolean value indicating whether the integer is a prime number or not.
+
+The `isPrime` method first checks whether the input integer is equal to 0 or 1, and if it is, it returns false because these numbers are not considered prime. Next, it checks whether the input integer is equal to 2, which is the only even prime number, and if it is, it returns `true.`
+
+If the input integer is not 0, 1, or 2, the isPrime method enters a loop that iterates from 2 to the integer divided by 2. During each iteration, it checks whether the integer is divisible by the loop variable, and if it is, it returns `false` because the integer is not a prime number. If none of the loop iterations return false, the method returns true, indicating that the input integer is a prime number.
+
+Overall, this code provides a simple and efficient algorithm to determine whether an integer is a prime number or not.
 
 
 
