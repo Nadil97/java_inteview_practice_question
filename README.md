@@ -81,6 +81,21 @@ If the input integer is not 0, 1, or 2, the isPrime method enters a loop that it
 
 Overall, this code provides a simple and efficient algorithm to determine whether an integer is a prime number or not.
 
+## 09 Write a Java program to print a Fibonacci sequence using recursion
+
+This Java code generates and prints a sequence of numbers called the `Fibonacci sequence`. The PrintFibonacci class has a `printFibonacciSequence` method that takes an integer value count as an input, and uses a `loop` to generate and print the first count numbers of the Fibonacci sequence.
+
+The method initializes three variables `a`, `b`, and `c`to `0`, `1`, and `1` respectively. It then enters a loop that iterates count times, printing the value of a during each iteration, followed by a comma and a space. After printing the current value of a, it updates the values of the three variables to prepare for the next iteration. Specifically, it assigns `b` to `a`, `c` to `b`, and calculates the new value of `c` as the sum of `a` and `b`.
+
+The main method invokes the printFibonacciSequence method with an argument of `10`, which prints the first 10 numbers of the Fibonacci sequence.
+
+Overall, this code provides a simple and efficient way to generate and print the `Fibonacci sequence` in `Java`.
+
+
+
+
+
+
 
 
 
